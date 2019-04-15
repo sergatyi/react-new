@@ -1,0 +1,36 @@
+*{padding:0px;margin:0px}
+
+.app-wrapper{
+  display: grid;
+  grid-template-areas:
+  "result result result result"
+  "clearResult Zerro percent delete"
+  "item7 item8 item9 Mnog"
+  "item4 item5 item6 minus"
+  "item1 item2 item3 plus"
+  "Zero Zero point rovno";
+  grid-template-columns: 100px 100px 100px 100px;
+}
+
+.result{
+  grid-area: result;text-align: right;background-color: #615e5e;color: #fff;padding: 10px;
+}
+.clearResult{grid-area:clearResult;padding: 10px;}
+.Zerro{grid-area:Zerro;padding: 10px;}
+.percent{grid-area:percent;padding: 10px;}
+.delete{grid-area:delete;padding: 10px;}
+.item7{grid-area:item7;padding: 10px;}
+.item8{grid-area:item8;padding: 10px;}
+.item9{grid-area:item9;padding: 10px;}
+.Mnog{grid-area:Mnog;padding: 10px;}
+.item4{grid-area:item4;padding: 10px;}
+.item5{grid-area:item5;padding: 10px;}
+.item6{grid-area:item6;padding: 10px;}
+.minus{grid-area:minus;padding: 10px;}
+.item1{grid-area:item1;padding: 10px;}
+.item2{grid-area:item2;padding: 10px;}
+.item3{grid-area:item3;padding: 10px;}
+.plus{grid-area:plus;padding: 10px;}
+.Zero{grid-area:Zero;padding: 10px;}
+.point{grid-area:point;padding: 10px;}
+.rovno{grid-area:rovno;padding: 10px;}
